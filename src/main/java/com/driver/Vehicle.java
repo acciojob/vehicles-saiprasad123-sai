@@ -32,7 +32,7 @@ public class Vehicle {
     private int currentSpeed;
     private int currentDirection;
 
-    public Vehicle(String name) {
+    public Vehicle() {
         this.name = name;
     }
 
