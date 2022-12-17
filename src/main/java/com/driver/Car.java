@@ -41,4 +41,7 @@ public class Car extends Vehicle {
     public int getcurrentDirection() {
         return super.getCurrentDirection();
     }
+    public int getCurrentGear(){
+        return this.currentGear;
+    }
 }
